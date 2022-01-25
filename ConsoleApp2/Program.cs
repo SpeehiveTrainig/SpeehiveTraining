@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ConsoleApp2.Utills;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,6 +21,10 @@ namespace ConsoleApp2
 
             Employee employee = new Employee();
             employee.Name = "vishnu";
+
+            Helper o = new Helper();
+            o.WriteToFile
+
            
         }
     }
