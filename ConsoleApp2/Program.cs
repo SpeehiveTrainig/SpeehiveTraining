@@ -10,7 +10,17 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("test");
+           Student student = new Student();
+            student.setRollNo(1);
+            student.getRollNo();
+           
+            Console.WriteLine();
+
+            student.Mark1 = 10;
+
+            Employee employee = new Employee();
+            employee.Name = "vishnu";
+           
         }
     }
 }
