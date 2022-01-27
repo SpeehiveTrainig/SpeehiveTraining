@@ -34,7 +34,7 @@ namespace StudentManagement.Models
 
         public void Display()
         {
-
+           
             Console.WriteLine("");
 
         }
