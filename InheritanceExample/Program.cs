@@ -21,6 +21,10 @@ namespace InheritanceExample
             b.functionFromA(); //inhertance
 
             b.functionFromB(); // normal
+
+            C c=new C();
+            c.functionFromA();
+            c.functionFromB();
         }
        
     }
@@ -48,6 +52,11 @@ namespace InheritanceExample
            
             Console.WriteLine("Function form B");
         }
+    }
+
+    class C : B
+    {
+
     }
 
     class Redmi9i //parent class
