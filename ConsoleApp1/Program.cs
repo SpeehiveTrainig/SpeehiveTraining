@@ -10,6 +10,10 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+            Student s1 = new Student();
+            s1.Gender = GenderEnum.FeMale;
+            s1.ModifiedTime = DateTime.Now;
+
             Test o=new Test();
             //o.hello();
 
