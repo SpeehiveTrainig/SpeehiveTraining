@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentManagement", "Studen
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InheritanceExample", "InheritanceExample\InheritanceExample.csproj", "{15A815E0-9E69-429A-A265-394FD6B82D68}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Constructors", "Constructors\Constructors.csproj", "{F10EBDE9-751B-41C4-9CE7-F13771E06514}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{15A815E0-9E69-429A-A265-394FD6B82D68}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15A815E0-9E69-429A-A265-394FD6B82D68}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{15A815E0-9E69-429A-A265-394FD6B82D68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F10EBDE9-751B-41C4-9CE7-F13771E06514}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F10EBDE9-751B-41C4-9CE7-F13771E06514}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F10EBDE9-751B-41C4-9CE7-F13771E06514}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F10EBDE9-751B-41C4-9CE7-F13771E06514}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
