@@ -20,6 +20,17 @@ namespace ConsoleApp1
             // o.Add(12,12);
 
             int avg=o.Avg(12, 12);
+
+
+            Student studentObj=new Student();
+            studentObj.M3 = 112;
+            studentObj.M4 = 12;
+            
+            o.CalculateGrade(studentObj);
+            
+            o.Add(studentObj.M3, studentObj.M3);
+
+
             Console.WriteLine(avg);
 
             Console.ReadKey();

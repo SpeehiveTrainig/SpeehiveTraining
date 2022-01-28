@@ -38,6 +38,18 @@ namespace ConsoleApp1
         }
 
 
+        public void CalculateGrade(Student studentObj)
+        {
+            int total =studentObj.M2+studentObj.M1;
+        }
+
+        public void Test(Student studentObj,string[] students)
+        {
+            int total  = studentObj.M2 + studentObj.M1;
+        }
+
+
+
 
 
     }
