@@ -43,7 +43,7 @@ namespace ConsoleApp1
             int total =studentObj.M2+studentObj.M1;
         }
 
-        public void Test(Student studentObj,string[] students)
+        public void Test1(Student studentObj,string[] students)
         {
             int total  = studentObj.M2 + studentObj.M1;
         }
